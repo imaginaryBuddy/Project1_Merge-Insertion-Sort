@@ -219,26 +219,6 @@ public class HybridSort2 {
 	}
 
 	public static int[] hybridSort(int[] arr, int start, int end) {
-//		int size = end - start + 1;
-//
-//		if (size <= 1)
-//			return arr;
-//		int[] sorted = new int[size];
-//		if (size > S) {
-//			int mid = (start + end) / 2;
-//			int s1 = mid - start + 1;
-//			int s2 = end - mid;
-//			int[] arr1 = new int[s1];
-//			arr1 = hybridSort(arr, start, mid);
-//			int[] arr2 = new int[s2];
-//			arr2 = hybridSort(arr, mid + 1, end);
-//			sorted = merge(arr1, arr2, s1, s2);
-//
-//		} else {
-//			System.arraycopy(arr, start, sorted, 0, size);
-//			insertionSort(sorted, 0, size - 1);
-//		}
-//		return sorted;
 
 		int size = end - start + 1;
 		int[] sorted = new int[end - start + 1];
